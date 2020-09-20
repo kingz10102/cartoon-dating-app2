@@ -15,6 +15,7 @@ app.use(Cors());
 
 // Database Config
 mongoose.connect(connection_url, {
+    // mongoose connection
     useNewUrlParser: true,
     useCreateIndex: true, 
     useUnifiedTopology: true,
